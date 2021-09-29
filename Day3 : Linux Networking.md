@@ -10,5 +10,18 @@
   `opt` : Special options for that specific rule. \
   `source`  : Source ip-address of the packet \
   `destination` : Destination ip-address for the packet \
-  `in` : 
+  `in` :                                           \
 ### Why rules are added to the top?
+
+
+
+
+### what type of rules we can add to the iptables?
+
+
+
+
+
+### Can we block a website by its domain name only?
+    Yes we can block a website by its domain name only
+    `sudo iptables -A INPUT -i facebook.com -j DROP`  \
