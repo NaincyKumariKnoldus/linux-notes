@@ -63,8 +63,8 @@
 
 When a client connects to a server over SSH, the machine can be controlled like a local computer. 
 
-The server has a designated TCP port over which it monitors the network, waiting for clients to initialize the connection. Before a client connects and starts issuing SSH commands, it needs to pass the authentication process.
-Run the following command on a client machine to initiate an SSH connection:
+The server has a designated TCP port over which it monitors the network, waiting for clients to initialize the connection. Before a client connects and starts issuing SSH commands, it needs to pass the authentication process.\
+Run the following command on a client machine to initiate an SSH connection: \
 `$ ssh [username]@[server_ip_or_hostname]`
 
 
