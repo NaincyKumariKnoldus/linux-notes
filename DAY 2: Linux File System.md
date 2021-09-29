@@ -34,23 +34,23 @@ swap memory is the dedicated amount of hard drive that is used whenever RAM runs
 Since PID is an unique identifier for a process, there's no way to have two distinct processes with the same PID.
 
 ###  Revisit Linux Directory Structure and each directory ?
-`/` - Everything on your Linux system is located under the / directory, known as the root directory.
-`/bin `: All the executable binary programs (file) required during booting, repairing, files required to run into single-user-mode, and other important, basic commands viz., cat, ls
-`/boot `: Holds important files during the boot-up process , including Linux Kernel.
-`/dev `: Contains device files for all the hardware devices on the machine.
-`/etc ` : all the machine specific configuration files should be located in /etc.
-`/home ` : Home directory of the users. Every time a new user is created, a directory in the name of the user is created within the home directory which contains other directories like Desktop, Downloads, etc.
-`/lib `: Binaries found in /bin and /sbin often use shared libraries located in /lib.
-`/media ` : Temporary mount directory is created for removable devices.
-`/mnt `: Temporary mount directory for mounting file system.
-`/opt ` : Optional is abbreviated as opt. Contains third party application software. Viz., Java, etc.
-`/proc `: A virtual and pseudo file-system which contains information about a running process with a particular pid.
-`/root `: This is the home directory of root user and should never be confused with /
-`/sbin `: Contains binary executable programs to configure operating system , required by System Administrator , here s refers to sudo or super
-`/srv `: Service is abbreviated as ‘srv‘. This directory contains server specific and service related files.
-`/tmp ` :System’s Temporary Directory, Stores temporary files for user and system, till next boot.
-`/usr `: stands for User System Resources. This directory contains most commands and executables files, libraries and documentation.
-`/var `: Stands for variable. The contents of this file is expected to grow. This directory contains logs.
+`/` - Everything on your Linux system is located under the / directory, known as the root directory. \
+`/bin `: All the executable binary programs (file) required during booting, repairing, files required to run into single-user-mode, and other important, basic commands viz., cat, ls \
+`/boot `: Holds important files during the boot-up process , including Linux Kernel. \
+`/dev `: Contains device files for all the hardware devices on the machine. \
+`/etc ` : all the machine specific configuration files should be located in /etc. \
+`/home ` : Home directory of the users. Every time a new user is created, a directory in the name of the user is created within the home directory which contains other directories like Desktop, Downloads, etc. \
+`/lib `: Binaries found in /bin and /sbin often use shared libraries located in /lib. \
+`/media ` : Temporary mount directory is created for removable devices. \
+`/mnt `: Temporary mount directory for mounting file system. \
+`/opt ` : Optional is abbreviated as opt. Contains third party application software. Viz., Java, etc. \
+`/proc `: A virtual and pseudo file-system which contains information about a running process with a particular pid. \
+`/root `: This is the home directory of root user and should never be confused with / \
+`/sbin `: Contains binary executable programs to configure operating system , required by System Administrator , here s refers to sudo or super \
+`/srv `: Service is abbreviated as ‘srv‘. This directory contains server specific and service related files. \
+`/tmp ` :System’s Temporary Directory, Stores temporary files for user and system, till next boot. \
+`/usr `: stands for User System Resources. This directory contains most commands and executables files, libraries and documentation. \
+`/var `: Stands for variable. The contents of this file is expected to grow. This directory contains logs. \
 
 
 
