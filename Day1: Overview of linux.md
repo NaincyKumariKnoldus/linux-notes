@@ -35,12 +35,26 @@ Risk of having a virus or malware is minimal, that reduces the cost of anti-viru
 `Windows Operating System` : Windows is an operating system designed by Microsoft to be used on standard x86 Intel and AMD processors. It provides an interface, known as a graphical user interface(GUI) which eliminates the need to memorize commands for the command line by using a mouse to navigate through menus, dialog boxes, buttons, tabs, and icons. The operating system was named windows since the programs are displayed in the shape of a square. \
 `LINUX Operating System` : The Linux OS is an open source operating system project that is a freely distributed, cross-platform operating system developed based on UNIX. This operating system is developed by Linus Torvalds. The name Linux comes from the Linux kernel. It is basically the system software on a computer that allows apps and users to perform some specific task on the computer. 
 
-### What are getty commans?
+### What are getty commands?
 `getty [ [ -r | -u | -U ] [ -d ] [ -H HeraldString ] [ -M motdFile ] [ -N ] ] PortName`
 
 The getty command sets and manages terminal lines and ports. The getty command is run by the init command. The getty command is linked to the Terminal State Manager program. The Terminal State Manager program provides combined terminal control and login functions. \
 You can configure the getty command to create your home directory at your login if you do not have a home directory already. The getty command calls the mkuser.sys command to create the home directory and customize the account. To enable this capability, set the mkhomeatlogin attribute of the usw stanza in the /etc/security/login.cfg file to true. The getty command is not entered on the command line. \
 The file /usr/sbin/getty contains the getty command.
+
+### What are Uname commands?
+The command ‘uname‘ displays the information about the system.
+Syntax: `uname [OPTION]`
+1. `-a option`: It prints all the system information in the following order: Kernel name, network node hostname, kernel release date, kernel version, machine hardware name, hardware platform, operating system.
+2. `-s option`: It prints the kernel name.
+3. `-n option`: It prints the hostname of the network node(current computer).
+4. `-r option`: It prints the kernel release date.
+5. `-v option`: It prints the version of the current kernel.
+6. `-m option`: It prints the machine hardware name.
+7. `-p option`: It prints the type of the processor.
+8. `-i option`: It prints the platform of the hardware.
+9. `-o option`: It prints the name of the operating system.
+
 
 
 
