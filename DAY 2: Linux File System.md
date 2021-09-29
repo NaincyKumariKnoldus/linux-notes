@@ -50,7 +50,19 @@ Since PID is an unique identifier for a process, there's no way to have two dist
 `/srv `: Service is abbreviated as ‘srv‘. This directory contains server specific and service related files. \
 `/tmp ` :System’s Temporary Directory, Stores temporary files for user and system, till next boot. \
 `/usr `: stands for User System Resources. This directory contains most commands and executables files, libraries and documentation. \
-`/var `: Stands for variable. The contents of this file is expected to grow. This directory contains logs. \
+`/var `: Stands for variable. The contents of this file is expected to grow. This directory contains logs. 
+
+###  What is btrfs?
+Btrfs stands for B Tree File System (computing; Linux). Btrfs is a computer storage format that combines a file system based on the copy-on-write principle with a logical volume manager, developed together.
+btrfs filesystem is used to perform several whole filesystem level tasks, including all the regular filesystem operations like resizing, space stats, label setting/getting, and defragmentation. 
+
+###  What is Unix time sharing?
+Unix is a time sharing OS as its environment provides multiprogramming & multitasking. It allows a large number of users to interact concurrently. It also brought down the cost of computing capabilities.
+
+### What is the difference between sbin and /usr/bin?
+Both are the directories. It contains root binaries which are executable commands to perform particular tasks. Since they are root binaries it requires root privileges to run.
+`/sbin` is a symbolic link to `/usr/bin`.
+
 
 
 
