@@ -38,5 +38,18 @@
    The generic method of saving iptables rules is to use the command iptables-save, which writes to stdout. \
    ` $ iptables-save > /etc/network/iptables.rules`
    
+### How can we persist rules in iptables?
+   
+   
+   
+   
+   
+### What are public & private keys?
+   `Private key` : In Private key, the same key (secret key) is used for encryption and decryption. In this key is symmetric because the only key is copy or share by another party to decrypt the cipher text. It is faster than the public key cryptography.
+
+   `Public Key`  : In Public key, two keys are used one key is used for encryption and another key is used for decryption. One key (public key) is used for encrypt the plain text to convert it into cipher text and another key (private key) is used by receiver to decrypt the cipher text to read the message.
+   
+### Difference between ufw & iptables?
+
    
    
