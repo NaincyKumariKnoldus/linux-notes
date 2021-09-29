@@ -77,6 +77,8 @@ Run the following command on a client machine to initiate an SSH connection: \
 |HTTP works at Application Layer.| HTTPS works at Transport Layer.|
 |In HTTP, Encryption is absent. | Encryption is present in HTTPS.|
 
+### What is SSL?
+ SSL stands for Secure Sockets Layer and, in short, it's the standard technology for keeping an internet connection secure and safeguarding any sensitive data that is being sent between two systems, preventing criminals from reading and modifying any information transferred, including potential personal details. The two systems can be a server and a client (for example, a shopping website and browser) or server to server (for example, an application with personal identifiable information or with payroll information).
 
 
    
