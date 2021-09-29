@@ -10,5 +10,12 @@ The “losetup” command-line tool is used to connect loop devices with the blo
 `/dev` is the location of special or device files. It is a very interesting directory that highlights one important aspect of the Linux filesystem - everything is a file or a directory. 
 `/dev/tty` stands for the controlling terminal (if any) for the current process (the process that uses "/dev/tty" in a command). To find out which tty's are attached to which processes use the "ps -a" command at the shell prompt (command line).
 
+### What are Linux Signals?
+In Linux, Signals are the interrupts that are sent to the program to specify that an important event has occurred. Events can vary from user requests to invalid memory access errors. Various signals, like the interrupt signal, means that the user has asked the program to perform something which is not present in the user flow of control.
+There are two kinds of signals:
+* `Maskable` : Maskable Signals are the signals that the user can change or ignore, for example, Ctrl +C.
+* `Non-Maskable` : Non-Maskable Signals are the signals that the users cannot change or ignore. Non-Maskable signals mainly occur if a user is signaled for non-recoverable hardware errors.
+
+
 
 
