@@ -79,6 +79,9 @@ Run the following command on a client machine to initiate an SSH connection: \
 
 ### What is SSL?
  SSL stands for Secure Sockets Layer and, in short, it's the standard technology for keeping an internet connection secure and safeguarding any sensitive data that is being sent between two systems, preventing criminals from reading and modifying any information transferred, including potential personal details. The two systems can be a server and a client (for example, a shopping website and browser) or server to server (for example, an application with personal identifiable information or with payroll information).
+ 
+### Difference between apt update & apt upgrade.
+“apt-get update” updates the package sources list to get the latest list of available packages in the repositories and “apt-get upgrade” updates all the packages presently installed in our Linux system to their latest versions.
 
 
    
