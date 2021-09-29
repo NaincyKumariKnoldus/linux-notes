@@ -59,9 +59,9 @@
 
 
 ### How ssh works?
-  SSH is a client-server based protocol. This means the protocol allows a device requesting information or services (the client) to connect to another device (the server). \
+  SSH is a client-server based protocol. This means the protocol allows a device requesting information or services (the client) to connect to another device (the server). 
 
-When a client connects to a server over SSH, the machine can be controlled like a local computer. \
+When a client connects to a server over SSH, the machine can be controlled like a local computer. 
 
 The server has a designated TCP port over which it monitors the network, waiting for clients to initialize the connection. Before a client connects and starts issuing SSH commands, it needs to pass the authentication process.
    
