@@ -24,11 +24,7 @@ In comparison to Windows, Ubuntu provides a better option for privacy and securi
 3. Working with Partitions of hard drives \
 Linux live CD and Gparted enable to divide the hard disk into partitions. This feature is also applicable when your system is a dual or triple boot. Otherwise, the partition is helpful in migration to solid state drive or more spacious drive. Apart from this, wiping of data can be easily done in Ubuntu.
 4. Free Apps \
-Ubuntu provides a lot of free apps to explore the world of opportunities, refreshments, and enjoyment. Following are few apps of total listed below
-Spotify
-Skype
-Firefox
-Telegram
+Ubuntu provides a lot of free apps to explore the world of opportunities, refreshments, and enjoyment. 
 5. User-Friendly \
 Ubuntu is as easy as the Windows operating system. There is a well-known myth about Ubuntu is that Ubuntu is developed for developers and coders only. But the actual fact is, Ubuntu is a beautiful desktop operating system and can be used by any common computer user.
 6 Say Bye to Antivirus \
