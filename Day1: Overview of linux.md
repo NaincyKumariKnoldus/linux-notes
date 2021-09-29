@@ -31,8 +31,18 @@ Ubuntu is as easy as the Windows operating system. There is a well-known myth ab
 Risk of having a virus or malware is minimal, that reduces the cost of anti-virus software. Antivirus is also a reason for the slowness of the computer system and affects performance badly
 
 ### What are the various operating systems & their uses?
-`MS-DOS`:which is short for Microsoft Disk Operating System is a non-graphical command line operating system developed for IBM compatible computers with x86 microprocessor. The operating system used a command line interface for the user to input commands to navigate, open and manipulate files on their computer.
-`Windows Operating System` : Windows is an operating system designed by Microsoft to be used on standard x86 Intel and AMD processors. It provides an interface, known as a graphical user interface(GUI) which eliminates the need to memorize commands for the command line by using a mouse to navigate through menus, dialog boxes, buttons, tabs, and icons. The operating system was named windows since the programs are displayed in the shape of a square. 
+`MS-DOS`:which is short for Microsoft Disk Operating System is a non-graphical command line operating system developed for IBM compatible computers with x86 microprocessor. The operating system used a command line interface for the user to input commands to navigate, open and manipulate files on their computer. \
+`Windows Operating System` : Windows is an operating system designed by Microsoft to be used on standard x86 Intel and AMD processors. It provides an interface, known as a graphical user interface(GUI) which eliminates the need to memorize commands for the command line by using a mouse to navigate through menus, dialog boxes, buttons, tabs, and icons. The operating system was named windows since the programs are displayed in the shape of a square. \
+`LINUX Operating System` : The Linux OS is an open source operating system project that is a freely distributed, cross-platform operating system developed based on UNIX. This operating system is developed by Linus Torvalds. The name Linux comes from the Linux kernel. It is basically the system software on a computer that allows apps and users to perform some specific task on the computer. 
+
+### What are getty commans?
+`getty [ [ -r | -u | -U ] [ -d ] [ -H HeraldString ] [ -M motdFile ] [ -N ] ] PortName`
+
+The getty command sets and manages terminal lines and ports. The getty command is run by the init command. The getty command is linked to the Terminal State Manager program. The Terminal State Manager program provides combined terminal control and login functions. \
+You can configure the getty command to create your home directory at your login if you do not have a home directory already. The getty command calls the mkuser.sys command to create the home directory and customize the account. To enable this capability, set the mkhomeatlogin attribute of the usw stanza in the /etc/security/login.cfg file to true. The getty command is not entered on the command line. \
+The file /usr/sbin/getty contains the getty command.
+
+
 
 
 
