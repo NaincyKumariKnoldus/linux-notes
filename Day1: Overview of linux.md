@@ -1,10 +1,13 @@
 ### What is the GNU project?
    GNU stands for GNU's not Unix. The GNU project is a mass collaborative initiative for the development of free software. The original purpose of the GNU project was the creation of a free operating system. Free, in a software context, does not necessarily mean free of cost. The freedom referred to is the ability of anyone who wishes to run, copy, distribute, study, change and improve the software. According to the GNU Linux project, the Linux operating system's kernel is Linux but all other elements of the system are GNU.  According to the project,  neither OS exists independently and, as such Linux would more appropriately be called GNU Linux.
 ### Difference between Unix and Linux?
- * Linux is an open-source operating system which is freely available to everyone. Whereas Unix is an operating system which can be only used by its copywriters.
- * Linux is just the kernel, whereas Unix is a complete package of Operating systems.
- * BASH is the Linux default shell. It offers support for multiple command interpreters. Unix Originally made it work in Bourne Shell. However, it is now compatible with many other software.
- * Linux source is available to the general public whereas unix source code is not available to anyone.
+| Linux  - | Unix |
+|  ------------------------- | --------------------------- |
+| Linux is open source and is developed by Linux community of developers. |Unix was developed by AT&T Bell labs and is not open source.|
+| Linux is free to use. |Unix is licensed OS.|
+| Ext2, Ext3, Ext4, Jfs, ReiserFS, Xfs, Btrfs, FAT, FAT32, NTFS. | s, gpfs, hfs, hfs+, ufs, xfs, zfs.|
+| Linux is used in wide varieties from desktop, servers, smartphones to mainframes. | Unix is mostly used on servers, workstations or PCs.|
+| Distros are Ubuntu, Debian GNU, Arch Linux, etc.| SunOS, Solaris, SCO UNIX, AIX, HP/UX, ULTRIX etc.|
  
  ### What is UEFI? Difference between UEFI and BIOS?
  The BIOS (basic input/output system) is a firmware component stored in nonvolatile memory, usually a flash chip.The BIOS loads the boot loader, which is the first software component loaded during the boot process. \
