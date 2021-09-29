@@ -90,6 +90,11 @@ Run the following command on a client machine to initiate an SSH connection: \
 
 ### What do repositories contain in a Linux system?
  A Linux repository is a storage location from which your system retrieves and installs OS updates and applications. Each repository is a collection of software hosted on a remote server and intended to be used for installing and updating software packages on Linux systems. When you run commands such as “sudo apt update” or “sudo apt upgrade”, you may be pulling package information and package updates from a number of repositories.
+ 
+ ### Difference between apt and apt-get?
+ apt is a subset of apt-get and apt-cache commands providing necessary commands for package management.While apt does have some similar command options as apt-    get, it’s not backward compatible with apt-get.
+ 
+ ### What does the number represent after the file permissions?
 
 
    
