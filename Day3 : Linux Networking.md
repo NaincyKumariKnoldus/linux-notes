@@ -50,6 +50,15 @@
    `Public Key`  : In Public key, two keys are used one key is used for encryption and another key is used for decryption. One key (public key) is used for encrypt the plain text to convert it into cipher text and another key (private key) is used by receiver to decrypt the cipher text to read the message.
    
 ### Difference between ufw & iptables?
+   `iptables` : iptables provide a complete firewall solution that is both highly configurable and highly flexible.
+   `ufw` : The Uncomplicated Firewall (ufw) is a frontend for iptables.ufw aims to provide an easy to use interface for people unfamiliar with firewall concepts, while at the same time simplifies complicated iptables commands to help an administrator who knows what he or she is doing.
 
+
+
+
+
+
+### How ssh works?
+  
    
    
