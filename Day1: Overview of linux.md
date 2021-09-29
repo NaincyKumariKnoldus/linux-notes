@@ -15,6 +15,27 @@
  * UEFI has discrete driver support, while BIOS has drive support stored in its ROM, so updating BIOS firmware is a bit difficult.
  * UEFI offers security like "Secure Boot", which prevents the computer from booting from unauthorized/unsigned applications. This helps in preventing rootkits, but also hampers dual-booting, as it treats other OS as unsigned applications.
  * UEFI runs in 32bit or 64bit mode, whereas BIOS runs in 16bit mode. So UEFI  is able to provide a GUI (navigation with mouse) as opposed to BIOS which allows navigation only using the keyboard.
+ 
+ ### When should I go for Ubuntu & when for other systems?
+1. Free of Cost
+Downloading and installing Ubuntu is free, and costs only time to install it. One can just download from the internet or can create an ISO bootable disk, and after it, the environment is ready to launch.
+2. Privacy
+In comparison to Windows, Ubuntu provides a better option for privacy and security. The best advantage of having Ubuntu is that we can acquire the required privacy and additional security without having any third party solution. Risk of hacking and various other attacks can be minimized by using this distribution.
+3. Working with Partitions of hard drives
+Linux live CD and Gparted enable to divide the hard disk into partitions. This feature is also applicable when your system is a dual or triple boot. Otherwise, the partition is helpful in migration to solid state drive or more spacious drive. Apart from this, wiping of data can be easily done in Ubuntu.
+4. Free Apps
+Ubuntu provides a lot of free apps to explore the world of opportunities, refreshments, and enjoyment. Following are few apps of total listed below
+Spotify
+Skype
+Firefox
+Telegram
+5. User-Friendly
+Ubuntu is as easy as the Windows operating system. There is a well-known myth about Ubuntu is that Ubuntu is developed for developers and coders only. But the actual fact is, Ubuntu is a beautiful desktop operating system and can be used by any common computer user.
+ 
+6 Say Bye to Antivirus
+Risk of having a virus or malware is minimal, that reduces the cost of anti-virus software. Antivirus is also a reason for the slowness of the computer system and affects performance badly
+
+
 
 
 
