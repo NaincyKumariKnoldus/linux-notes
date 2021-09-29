@@ -59,7 +59,7 @@ Syntax: `uname [OPTION]`
 9. `-o option`: It prints the name of the operating system.
 
 ### What is systemd.unit(5)?
-The number basically corresponds to the section of the manual page. \
+The number basically corresponds to the section of the manual page. 
 | Number - | Meaning|
 |  -------------------------  | ------------------- |
 | 1 | General Commands |
