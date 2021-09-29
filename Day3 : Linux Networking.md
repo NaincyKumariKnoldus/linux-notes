@@ -23,5 +23,5 @@
 
 
 ### Can we block a website by its domain name only?
-    Yes we can block a website by its domain name only
+    Yes we can block a website by its domain name only \
     `sudo iptables -A INPUT -i facebook.com -j DROP`  \
