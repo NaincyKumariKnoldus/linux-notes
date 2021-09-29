@@ -5,4 +5,11 @@
  * Linux is just the kernel, whereas Unix is a complete package of Operating systems.
  * BASH is the Linux default shell. It offers support for multiple command interpreters. Unix Originally made it work in Bourne Shell. However, it is now compatible with many other software.
  * Linux source is available to the general public whereas unix source code is not available to anyone.
+ 
+ ### What is UEFI? Difference between UEFI and BIOS?
+ The BIOS (basic input/output system) is a firmware component stored in nonvolatile memory, usually a flash chip.The BIOS loads the boot loader, which is the first software component loaded during the boot process. \
+ The boot loader is stored in the hard drive, together with the operating system and applications. \
+ UEFI stands for Unified Extensible Firmware Interface. It does the same job as a BIOS, but with one basic difference: it stores all data about initialization and startup in an .efi file, instead of storing it on the firmware.
+
+
 
