@@ -95,6 +95,10 @@ Run the following command on a client machine to initiate an SSH connection: \
  apt is a subset of apt-get and apt-cache commands providing necessary commands for package management.While apt does have some similar command options as apt-    get, it’s not backward compatible with apt-get.
  
  ### What does the number represent after the file permissions?
+  The number you mention is the number of hard links to a file. It's always at least 1 (itself). \
+  `-rwxrw-r-- 1` is a file with read, write and execute privileges for the owner. \
+  drwxr-xr-x 10 is a directory with 8 files. The extra 2 are . and ... Only the owner can create files in this directory, others can access which files are in the directory, and read the contents of those files if the privileges allow. \
+  The number succeeding permission characters indicates the number of links if the node is a file, and number of "sub-nodes" if the node is a directory.
 
 
    
