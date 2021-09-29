@@ -58,7 +58,7 @@
 
 
 
-### How ssh works?
+### How does ssh works?
   SSH is a client-server based protocol. This means the protocol allows a device requesting information or services (the client) to connect to another device (the server). 
 
 When a client connects to a server over SSH, the machine can be controlled like a local computer. 
@@ -66,6 +66,16 @@ When a client connects to a server over SSH, the machine can be controlled like 
 The server has a designated TCP port over which it monitors the network, waiting for clients to initialize the connection. Before a client connects and starts issuing SSH commands, it needs to pass the authentication process.\
 Run the following command on a client machine to initiate an SSH connection: \
 `$ ssh [username]@[server_ip_or_hostname]`
+
+### Difference between HTTP & HTTPS?
+| HTTP | HTTPS |
+|----------------------------|-------------------------------------|
+|HTTP stands for HyperText Transfer Protocol.| HTTPS for HyperText Transfer Protocol Secure.|
+|In HTTP, URL begins with “http://”.|In HTTPs, URL starts with “https://”.|
+|HTTP uses port number 80 for communication. | HTTPs uses 443 port number for communication.|
+|HTTP is considered to be unsecure. | HTTPs is considered as secure.|
+|HTTP works at Application Layer.| HTTPS works at Transport Layer.|
+|In HTTP, Encryption is absent. | Encryption is present in HTTPS.|
 
 
 
