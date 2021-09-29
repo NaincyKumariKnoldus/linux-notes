@@ -43,7 +43,7 @@ You can configure the getty command to create your home directory at your login 
 The file /usr/sbin/getty contains the getty command.
 
 ### What are Uname commands?
-The command ‘uname‘ displays the information about the system.
+The command ‘uname‘ displays the information about the system. \
 Syntax: `uname [OPTION]`
 1. `-a option`: It prints all the system information in the following order: Kernel name, network node hostname, kernel release date, kernel version, machine hardware name, hardware platform, operating system.
 2. `-s option`: It prints the kernel name.
@@ -54,6 +54,25 @@ Syntax: `uname [OPTION]`
 7. `-p option`: It prints the type of the processor.
 8. `-i option`: It prints the platform of the hardware.
 9. `-o option`: It prints the name of the operating system.
+
+### What is systemd.unit(5)?
+The number basically corresponds to the section of the manual page. \
+Section 1 for General Commands , Section 2 for System Calls, Section 3 for Library functions, covering in particular the C standard library, Section 4 for Special files (usually devices, those found in /dev) and drivers, Section 5 for File formats and conventions, Section 6 for Games and screensavers, Section 7 for Miscellanea, Section 8 for System administration commands and daemons.
+
+### Difference between Systemd and initd?
+The `init` process forces services to be launched in a particular sequence. It makes each process dependent on another process which can lead to delay. \
+Whereas `systemd` is used to run the system services in parallel. It is helpful in removing unnecessary delays and boosting up the initialization process.
+
+### Whichis and whereis command?
+Whereis is a command line utility that allows you to find the location of the binary, source and manual pages files. \
+         Ex: `$ whereis bash` \
+Whichis command in linux used to locate the executable file. \
+        Ex: `$ which cpp python java`
+
+
+
+
+
 
 
 
