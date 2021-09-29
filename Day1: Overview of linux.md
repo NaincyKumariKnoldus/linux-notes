@@ -60,7 +60,17 @@ Syntax: `uname [OPTION]`
 
 ### What is systemd.unit(5)?
 The number basically corresponds to the section of the manual page. \
-Section 1 for General Commands , Section 2 for System Calls, Section 3 for Library functions, covering in particular the C standard library, Section 4 for Special files (usually devices, those found in /dev) and drivers, Section 5 for File formats and conventions, Section 6 for Games and screensavers, Section 7 for Miscellanea, Section 8 for System administration commands and daemons.
+| Number - | Meaning|
+|  -------------------------  | ------------------- |
+| 1 | General Commands |
+| 2 | System Calls |
+| 3 | Library functions, covering in particular the C standard library |
+| 4 | Special files (usually devices, those found in /dev) and drivers |
+| 5 | File formats and conventions |
+| 6 | Games and screensavers |
+| 7 | Miscellanea |
+| 8 | System administration commands and daemons |
+
 
 ### Difference between Systemd and initd?
 The `init` process forces services to be launched in a particular sequence. It makes each process dependent on another process which can lead to delay. \
