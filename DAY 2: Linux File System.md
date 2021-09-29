@@ -16,6 +16,14 @@ There are two kinds of signals:
 * `Maskable` : Maskable Signals are the signals that the user can change or ignore, for example, Ctrl +C.
 * `Non-Maskable` : Non-Maskable Signals are the signals that the users cannot change or ignore. Non-Maskable signals mainly occur if a user is signaled for non-recoverable hardware errors.
 
+### What are purpose of Hidden Files?
+Files that exist on a computer, but don't appear when listing or exploring, are called hidden files. A hidden file is primarily used to help prevent important data from being accidentally deleted. \
+On Linux, hidden files are files that are not directly displayed when performing a standard ls directory listing. Hidden files, also called dot files on Unix operating systems, are files used in order to execute some scripts or to store configuration about some services on your host. \
+By default, all hidden files are not listed by the ls command. Any filename begins with a dot (.) becomes a hidden file. For example ~/.bashrc is a hidden file in Linux. Hidden files are often known as a dot file. And we can also delete that file. \
+For listing dot file :     `ls -a | egrep '^\.`
+For deleting dot file :         `rm -rfv /tmp/demo/.*`
+
+
 
 
 
