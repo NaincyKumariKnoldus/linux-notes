@@ -6,9 +6,9 @@
    3. `Mangle table` : Iptables’s Mangle table is for specialized packet alteration. This alters QOS bits in the TCP header. 
    4. `Raw table` : Iptable’s Raw table is for configuration excemptions. 
 ### What is prot, opt, in, out, source & destination?
-  `prot`: Protocols. tcp, udp, icmp, etc.,
-  `opt` : Special options for that specific rule.
-  `source`  : Source ip-address of the packet
-  `destination` : Destination ip-address for the packet
+  `prot`: Protocols. tcp, udp, icmp, etc., \
+  `opt` : Special options for that specific rule. \
+  `source`  : Source ip-address of the packet \
+  `destination` : Destination ip-address for the packet \
   `in` : 
 ### Why rules are added to the top?
