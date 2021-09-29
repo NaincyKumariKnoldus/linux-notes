@@ -27,8 +27,14 @@ Linux live CD and Gparted enable to divide the hard disk into partitions. This f
 Ubuntu provides a lot of free apps to explore the world of opportunities, refreshments, and enjoyment. 
 5. User-Friendly \
 Ubuntu is as easy as the Windows operating system. There is a well-known myth about Ubuntu is that Ubuntu is developed for developers and coders only. But the actual fact is, Ubuntu is a beautiful desktop operating system and can be used by any common computer user.
-6 Say Bye to Antivirus \
+6. Say Bye to Antivirus \
 Risk of having a virus or malware is minimal, that reduces the cost of anti-virus software. Antivirus is also a reason for the slowness of the computer system and affects performance badly
+
+### What are the various operating systems & their uses?
+`MS-DOS`:which is short for Microsoft Disk Operating System is a non-graphical command line operating system developed for IBM compatible computers with x86 microprocessor. The operating system used a command line interface for the user to input commands to navigate, open and manipulate files on their computer.
+`Windows Operating System` : Windows is an operating system designed by Microsoft to be used on standard x86 Intel and AMD processors. It provides an interface, known as a graphical user interface(GUI) which eliminates the need to memorize commands for the command line by using a mouse to navigate through menus, dialog boxes, buttons, tabs, and icons. The operating system was named windows since the programs are displayed in the shape of a square. 
+
+
 
 
 
