@@ -36,7 +36,7 @@
    
 ### How can we save rules in iptables?
    The generic method of saving iptables rules is to use the command iptables-save, which writes to stdout. \
-   `iptables-save > /etc/network/iptables.rules`
+   ` $ iptables-save > /etc/network/iptables.rules`
    
    
    
