@@ -33,6 +33,12 @@ Ubuntu is as easy as the Windows operating system. There is a well-known myth ab
 6. Say Bye to Antivirus \
 Risk of having a virus or malware is minimal, that reduces the cost of anti-virus software. Antivirus is also a reason for the slowness of the computer system and affects performance badly
 
+### What are different distros of linux and their purpose?
+1. Debian : Bug Tracking, penetration testing, Network scanning
+2. CentOs : Rich base for open source communities
+3. Ubuntu : For personal computers & servers
+4. Fedora : Vast Software availability, Rapid release of softwares, excellent snap support
+
 ### What are the various operating systems & their uses?
 `MS-DOS`:which is short for Microsoft Disk Operating System is a non-graphical command line operating system developed for IBM compatible computers with x86 microprocessor. The operating system used a command line interface for the user to input commands to navigate, open and manipulate files on their computer. \
 `Windows Operating System` : Windows is an operating system designed by Microsoft to be used on standard x86 Intel and AMD processors. It provides an interface, known as a graphical user interface(GUI) which eliminates the need to memorize commands for the command line by using a mouse to navigate through menus, dialog boxes, buttons, tabs, and icons. The operating system was named windows since the programs are displayed in the shape of a square. \
