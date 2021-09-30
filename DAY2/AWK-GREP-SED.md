@@ -197,6 +197,7 @@ text.txt
 * `grep -w "Naincy" mytext.txt`
 
 ```this is Naincy.
+this is Naincy.
 ```
 
 
@@ -204,12 +205,14 @@ text.txt
 * `grep -o "Sneha" mytext.txt`
 
 ```Sneha
+Sneha
 ```
 
 
 
 * `grep -n "Shinni" mytext.txt`
 ```4:this is Shinni.
+this is Shinni.
 ```
 
 
