@@ -1,0 +1,10 @@
+Package: mypkg
+Version: 1.0
+Section: Custom
+Architecture: all
+Essential: no
+Priority: optional
+Depends:  g++
+Maintainer: Naincy
+Installed-Size: 1024
+Description: A short description of my-program that will be displayed when the package is being selected for installation. 
