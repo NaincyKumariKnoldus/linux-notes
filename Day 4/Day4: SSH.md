@@ -16,3 +16,18 @@ Go into the EC2 dashboard, then in the NETWORK & SECURITY menu go to Elastic IPs
 ### What is SCP & what does this command do?
 The SCP is a network protocol, based on the BSD RCP protocol, which supports file transfers between hosts on a network. SCP uses Secure Shell (SSH) for data transfer and uses the same mechanisms for authentication, thereby ensuring the authenticity and confidentiality of the data in transit.
 The scp command copies files or directories between a local and a remote system or between two remote systems. You can use this command from a remote system (after logging in with the ssh command) or from the local system. The scp command uses ssh for data transfer.
+
+### How can 1 give access to someone to my AWS instance?
+1. Connect to your Linux instance using SSH. 
+2. Use the adduser command to add a new user account to an EC2 instance (replace new_user with the new account name). The following example creates an associated group, home directory, and an entry in the /etc/passwd file of the instance. \
+`$ sudo adduser new_user`
+3. Change the security context to the new_user account so that folders and files you create have the correct permissions: \
+`$ sudo su - new_user`
+4. Create a .ssh directory in the new_user home directory:
+`$ mkdir .ssh`
+5. Use the chmod command to change the .ssh directory's permissions to 700. Changing the permissions restricts access so that only the new_user can read, write, \ or open the .ssh directory.
+`chmod 700 .ssh`
+6. Use the touch command to create the authorized_keys file in the .ssh directory: \
+`$ touch .ssh/authorized_keys`
+7. Use the chmod command to change the .ssh/authorized_keys file permissions to 600. Changing the file permissions restricts read or write access to the new_user. \
+`$ chmod 600 .ssh/authorized_keys`
